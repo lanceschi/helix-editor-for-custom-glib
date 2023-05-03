@@ -16,7 +16,7 @@ When the build step is over, you'll find all the required files in a subfolder l
 
 Modify the `VERSION` variable at line 3 of the `build.sh` shell script file.
 
-# Configure the helix target version
+# Configure the OS docker base image
 
 Modify the ubuntu default base image at line 1 of the `Dockerfile`.
 
