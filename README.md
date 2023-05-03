@@ -10,7 +10,7 @@ Follow these simple steps:
 2. CD into the cloned repository folder;
 3. run `./build.sh` from a shell prompt and wait.
 
-When the build step is over, you'll find all the required files in a subfolder labelled `helix-23.03`. Folder name follow the pattern `helix-<VERSION.NUMBER>` and can be modified at line 5 of `build.sh` file.
+When the build step is over, you'll find all the required files in a subfolder labelled `helix-23.03`. Folder name follow the pattern `helix-<VERSION>` and can be modified at line 5 of `build.sh` file.
 
 # Configure the helix target version
 
