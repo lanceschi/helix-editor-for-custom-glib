@@ -2,7 +2,7 @@
 
 This repository contains some script files for building the [helix][helix-github] editor from source within a docker image. The scripts can be tweaked in order to target specific GLIB library versions. By default `ubuntu:20.04` is the docker base image featuring GLIBC version 2.31.
 
-# How to build helix in linux
+# Build under linux
 
 Follow these simple steps:
 
