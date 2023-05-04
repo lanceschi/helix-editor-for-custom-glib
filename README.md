@@ -16,15 +16,18 @@ The `build.sh` script:
 2. run the built image as a docker container;
 3. extract the built files into a local host folder.
 
-When the build step is over, you'll find all the required files (binary, grammars, etc ...) in a subfolder labelled `helix-23.03`. Folder name follow the pattern `helix-<VERSION>` and can be modified at line 5 of `build.sh` file.
+When the build step is over, you'll find all the required files (binary, grammars, etc ...) in a subfolder labelled `helix-23.03`. Folder name follows the pattern `helix-<VERSION>` and can be modified at [line 5][build-line-5] of `build.sh` file.
 
 ## Configure the helix target version
 
-Modify the `VERSION` variable at line 3 of the `build.sh` shell script file.
+Modify the `VERSION` variable at [line 3][build-line-3] of the `build.sh` shell script file.
 
 ## Configure the OS docker base image
 
-Modify the ubuntu default base image at line 1 of the `Dockerfile`.
+Modify the ubuntu default base image at [line 1][dockerfile-line-1] of the `Dockerfile`.
 
 
 [helix-github]: https://github.com/helix-editor/helix
+[build-line-3]: build.sh#L3
+[build-line-5]: build.sh#L5
+[dockerfile-line-1]: Dockerfile#L1
