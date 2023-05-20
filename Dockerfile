@@ -1,6 +1,6 @@
 FROM ubuntu:20.04 AS builder
 
-ARG VERSION='23.03'
+ARG VERSION='23.05'
 
 # Installing build essential tools
 RUN apt update && apt install -y git curl build-essential
