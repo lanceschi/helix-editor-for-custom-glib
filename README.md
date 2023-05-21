@@ -26,8 +26,20 @@ Modify the `VERSION` variable at [line 3][build-line-3] of the `build.sh` shell 
 
 Modify the ubuntu default base image at [line 1][dockerfile-line-1] of the `Dockerfile`.
 
+## Notes
+
+### Git
+
+In order to download the full set of grammars, it was necessary to use in the Dockerfile a recent version of [git][git] which is not offered by ubuntu [PPAs][ppa-definition], beside `v2.25.1`. Currently the version offered by the [git PPA][git-ppa] is `v2.40.1`.
+
+More info can be found on this [issue][helix-git-issue] of the official [helix][helix-github] repository.
+
 
 [helix-github]: https://github.com/helix-editor/helix
 [build-line-3]: build.sh#L3
 [build-line-5]: build.sh#L5
 [dockerfile-line-1]: Dockerfile#L1
+[git]: https://git-scm.com/
+[ppa-definition]: https://en.wikipedia.org/wiki/Ubuntu#Package_Archives
+[git-ppa]: https://launchpad.net/~git-core/+archive/ubuntu/ppa
+[helix-git-issue]: https://github.com/helix-editor/helix/issues/7036
