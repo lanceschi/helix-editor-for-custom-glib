@@ -5,7 +5,7 @@ TAG="helix-${VERSION}"
 OUT_FOLDER="./helix-${VERSION}"
 NAME="helix-source-container"
 
-docker build \
+DOCKER_BUILDKIT=1 docker build \
   --file ./Dockerfile \
   --build-arg "VERSION=${VERSION}" \
   --pull -t "${TAG}" .
