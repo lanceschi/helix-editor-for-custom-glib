@@ -1,6 +1,6 @@
 FROM ubuntu:20.04 AS base
 
-ARG VERSION='23.05'
+ARG VERSION='24.03'
 ARG DEBIAN_FRONTEND='noninteractive'
 
 # Installing build essential tools
