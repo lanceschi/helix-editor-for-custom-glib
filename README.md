@@ -1,7 +1,7 @@
 # Description
 
 This repository contains some script files for building the
-[helix][helix-github] 23.05 editor from source within a docker image. The
+[helix][helix-github] 24.03 editor from source within a docker image. The
 scripts can be tweaked in order to target specific GLIB library versions. By
 default `ubuntu:20.04` is the docker base image featuring GLIBC version 2.31.
 
@@ -20,7 +20,7 @@ The `build.sh` script:
 3. extract the built files into a local host folder.
 
 When the build step is over, you'll find all the required files (binary,
-grammars, etc ...) in a subfolder labelled `helix-23.05`. Folder name follows
+grammars, etc ...) in a subfolder labelled `helix-24.03`. Folder name follows
 the pattern `helix-<VERSION>` and can be modified at [line 5][build-line-5] of
 `build.sh` file.
 
