@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VERSION="23.05"
+VERSION="24.03"
 TAG="helix-${VERSION}"
 OUT_FOLDER="./helix-${VERSION}"
 NAME="helix-source-container"
